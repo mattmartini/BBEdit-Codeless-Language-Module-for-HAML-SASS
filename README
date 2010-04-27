@@ -1,0 +1,22 @@
+This is a BBEdit Codeless Language Module for HAML/SASS.
+
+It is intended to provide sytax coloring, folding, ...
+for these lanuages.
+
+Currently this is very alpha.  I welcome all suggestions and comments.
+
+Useage:
+
+Copy the plist files into ~/Library/Application Support/BBEdit/Language Modules/
+
+Add a suffix mapping in Languages in BBEdit Preferences.
+
+Enjoy.
+
+Matt
+
+If you like this, there is a SASS/Compass/Bluepring clippings file at:
+
+   http://www.barebones.com/support/bbedit/clippings_library.html#sass
+
+
