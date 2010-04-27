@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+	<string>CodelessLanguageModule</string>
+	<key>BBLMColorsSyntax</key>
+	<true/>
+	<key>BBLMLanguageDisplayName</key>
+	<string>SASS Language Module</string>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string>.sass</string>
+		</dict>
+	</array>
+	<key>BBLMFileNamesToMatch</key>
+	<array>
+		<string></string>
+	</array>
+	<key>BBLMIsCaseSensitive</key>
+	<false/>
+	<key>BBLMKeywordList</key>
+	<array>
+	    <string>a</string>
+		<string>abbr</string>
+		<string>acronym</string>
+		<string>address</string>
+		<string>area</string>
+		<string>b</string>
+		<string>base</string>
+		<string>big</string>
+		<string>blockquote</string>
+		<string>body</string>
+		<string>br</string>
+		<string>button</string>
+		<string>caption</string>
+		<string>cite</string>
+		<string>code</string>
+		<string>col</string>
+		<string>colgroup</string>
+		<string>dd</string>
+		<string>del</string>
+		<string>dfn</string>
+		<string>div</string>
+		<string>dl</string>
+		<string>dt</string>
+		<string>em</string>
+		<string>fieldset</string>
+		<string>form</string>
+		<string>frame</string>
+		<string>frameset</string>
+		<string>(h[1-6])</string>
+		<string>head</string>
+		<string>hr</string>
+		<string>html</string>
+		<string>i</string>
+		<string>iframe</string>
+		<string>img</string>
+		<string>input</string>
+		<string>ins</string>
+		<string>kbd</string>
+		<string>label</string>
+		<string>legend</string>
+		<string>li</string>
+		<string>link</string>
+		<string>map</string>
+		<string>meta</string>
+		<string>noframes</string>
+		<string>noscript</string>
+		<string>object</string>
+		<string>ol</string>
+		<string>optgroup</string>
+		<string>option</string>
+		<string>p</string>
+		<string>param</string>
+		<string>pre</string>
+		<string>q</string>
+		<string>samp</string>
+		<string>script</string>
+		<string>select</string>
+		<string>small</string>
+		<string>span</string>
+		<string>strike</string>
+		<string>strong</string>
+		<string>style</string>
+		<string>sub</string>
+		<string>sup</string>
+		<string>table</string>
+		<string>tbody</string>
+		<string>td</string>
+		<string>textarea</string>
+		<string>tfoot</string>
+		<string>th</string>
+		<string>thead</string>
+		<string>title</string>
+		<string>tr</string>
+		<string>tt</string>
+		<string>ul</string>
+		<string>var</string>
+	</array>
+	<key>BBLMLanguageCode</key>
+	<string>SASS</string>
+	<key>BBLMLanguageDisplayName</key>
+	<string>SASS</string>
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMSupportsTextCompletion</key>
+	<true/>
+	<key>Language Features</key>
+	<dict>
+		<key>Function Pattern</key>
+		<string></string>
+		<key>Open Line Comments</key>
+		<string>//</string>
+		<key>Open Block Comments</key>
+		<string>/*</string>
+		<key>Close Block Comments</key>
+		<string>*/</string>
+		<key>Open Strings 1</key>
+		<string>'</string>
+		<key>Open Strings 2</key>
+		<string>"</string>
+		<key>Close Strings 1</key>
+		<string>'</string>
+		<key>Close Strings 2</key>
+		<string>"</string>
+		<key>End-of-line Ends Strings 1</key>
+		<false/>
+		<key>End-of-line Ends Strings 2</key>
+		<false/>
+		<key>Escape Char in Strings 1</key>
+		<string>\</string>
+		<key>Escape Char in Strings 2</key>
+		<string>\</string>
+		<key>Identifier and Keyword Character Class</key>
+		<string>a-zA-Z0-9_-</string>
+		<key>Skip Pattern</key>
+		<string></string>
+	</dict>
+	<key>com.barebones.DocumentType</key>
+	<string>CodelessLanguageModule</string>
+</dict>
+</plist>
