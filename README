@@ -6,17 +6,17 @@ for these lanuages.
 These CLM have been rewritten to put them into the modern form (with CDATA)
 and the keyword lists were improved.  I welcome all suggestions and comments.
 
-Useage:
+Usage:
 
 Copy the plist files into ~/Library/Application Support/BBEdit/Language Modules/
 
-Add a suffix mapping in Languages in BBEdit Preferences.
+Add a suffix mapping in BBEdit Preferences-> Languages
 
 Enjoy.
 
 Matt
 
-If you like this, there is a SASS/Compass/Bluepring clippings file at:
+If you like this, there is a SASS/Compass/Blueprint clippings file at:
 
    http://www.barebones.com/support/bbedit/clippings_library.html#sass
 
