@@ -3,7 +3,8 @@ This is a BBEdit Codeless Language Module for HAML/SASS.
 It is intended to provide sytax coloring, folding, ...
 for these lanuages.
 
-Currently this is very alpha.  I welcome all suggestions and comments.
+These CLM have been rewritten to put them into the modern form (with CDATA)
+and the keyword lists were improved.  I welcome all suggestions and comments.
 
 Useage:
 
