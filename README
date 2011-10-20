@@ -6,6 +6,9 @@ for these lanuages.
 These CLM have been rewritten to put them into the modern form (with CDATA)
 and the keyword lists were improved.  I welcome all suggestions and comments.
 
+Folded in suggested changes by:
+    https://github.com/rogeruiz/BBEdit-CLM-Sass.git
+
 Usage:
 
 Copy the plist files into ~/Library/Application Support/BBEdit/Language Modules/

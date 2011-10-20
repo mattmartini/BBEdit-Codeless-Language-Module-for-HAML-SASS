@@ -15,16 +15,20 @@
         <dict>
             <key>BBLMLanguageSuffix</key>
             <string><![CDATA[.sass]]></string>
+			<key>BBLMLanguageSuffix</key>
+			<string><![CDATA[.scss]]></string>
         </dict>
     </array>
     <key>BBLMColorsSyntax</key>
     <true/>
     <key>BBLMIsCaseSensitive</key>
-    <false/>
+	<true/>
     <key>BBLMScansFunctions</key>
     <true/>
     <key>BBLMSupportsTextCompletion</key>
     <true/>
+	<key>BBLMIsSourceKind</key>
+	<true/>
     <key>BBLMKeywordList</key>
     <array>
         <string><![CDATA[a]]></string>
@@ -249,6 +253,10 @@
         <string><![CDATA[+unobtrusive-logo]]></string>
         <string><![CDATA[+unstyled-link]]></string>
         <string><![CDATA[@import]]></string>
+		<string><![CDATA[@mixin]]></string>
+		<string><![CDATA[@include]]></string>
+		<string><![CDATA[=]]></string>
+		<string><![CDATA[+]]></string>
     </array>
     <key>BBLMPredefinedNameList</key>
     <array>
@@ -334,21 +342,31 @@
     <dict>
         <key>Comment Pattern</key>
         <string><![CDATA[(?x:
-            (//.*$)
+				(//.*$) | (/\*(\s*|\n*|\t*|\r*|.*)*\*/)
+			)]]></string>
+			<key>Function Pattern</key>
+			<string><![CDATA[(?x:
+				(?P<function_name>
+					@mixin\s[\w-?_?]+(\(.+\))?
+					| @include\s[\w-?_?]+(\(.+\))?
+					| =[\w-?_?]+(\(.+\))?
+					| \+[\w-?_?]+(\(.+\))?
+					| \.[\w-?_?]+
+					| \#[\w-?_?]+
+				)
         )]]></string>
-        
         <key>Identifier and Keyword Character Class</key>
-        <!-- Example: <string>a-zA-Z0-9_</string> -->
-        <string><![CDATA[a-zA-Z0-9_%.+$@#-]]></string>
-        
+			<string>0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz^-_%.+=$@#-</string>
         <key>String Pattern</key>
         <string><![CDATA[(?x:
-            (".+?")    |
-            ('.+?')    |
-            (\.[\w-]+) |
-            (\#[\w-]+)
+				(?P<string_double>".+?") | (?P<string_single>'.+?')
+			)]]></string>
+			<key>Skip Pattern</key>
+			<string><![CDATA[(?x:
+				(?>
+					(?P>comment) | (?P>string)
+				)
         )]]></string>
-        
     </dict>
 </dict>
 </plist>
