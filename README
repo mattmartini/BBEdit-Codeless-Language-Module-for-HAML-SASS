@@ -13,6 +13,8 @@ Usage:
 
 Copy the plist files into ~/Library/Application Support/BBEdit/Language Modules/
 
+NB: Lion has hidden parts of the library as a default. If you cannot seem to find the library, click the Go menu in the finder and hold down the Option key. It should appear. - Thanks JP Wynn
+
 Add a suffix mapping in BBEdit Preferences-> Languages
 
 Enjoy.
