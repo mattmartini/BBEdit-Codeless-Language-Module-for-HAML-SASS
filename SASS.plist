@@ -342,7 +342,8 @@
     <dict>
         <key>Comment Pattern</key>
         <string><![CDATA[(?x:
-				(//.*$) | (/\*(.|[\r\n])*?\*/)
+                (//.*$) |                               (?# Line comment)
+                (/\*(?>(?:(?>[^*]+)|\*(?!/))*)\*/)      (?# Block comment)
 			)]]></string>
 			<key>Function Pattern</key>
 			<string><![CDATA[(?x:
