@@ -36,6 +36,7 @@
         <string><![CDATA[acronym]]></string>
         <string><![CDATA[address]]></string>
         <string><![CDATA[area]]></string>
+        <string><![CDATA[aside]]></string>
         <string><![CDATA[b]]></string>
         <string><![CDATA[base]]></string>
         <string><![CDATA[big]]></string>
@@ -56,6 +57,7 @@
         <string><![CDATA[dt]]></string>
         <string><![CDATA[em]]></string>
         <string><![CDATA[fieldset]]></string>
+        <string><![CDATA[footer]]></string>
         <string><![CDATA[form]]></string>
         <string><![CDATA[frame]]></string>
         <string><![CDATA[frameset]]></string>
@@ -66,6 +68,7 @@
         <string><![CDATA[h5]]></string>
         <string><![CDATA[h6]]></string>
         <string><![CDATA[head]]></string>
+        <string><![CDATA[header]]></string>
         <string><![CDATA[hr]]></string>
         <string><![CDATA[html]]></string>
         <string><![CDATA[i]]></string>
@@ -80,6 +83,7 @@
         <string><![CDATA[link]]></string>
         <string><![CDATA[map]]></string>
         <string><![CDATA[meta]]></string>
+        <string><![CDATA[nav]]></string>
         <string><![CDATA[noframes]]></string>
         <string><![CDATA[noscript]]></string>
         <string><![CDATA[object]]></string>
@@ -316,6 +320,7 @@
         <string><![CDATA[margin-top]]></string>
         <string><![CDATA[margin]]></string>
         <string><![CDATA[max-width]]></string>
+        <string><![CDATA[min-width]]></string>
         <string><![CDATA[opacity]]></string>
         <string><![CDATA[overflow]]></string>
         <string><![CDATA[padding-bottom]]></string>
