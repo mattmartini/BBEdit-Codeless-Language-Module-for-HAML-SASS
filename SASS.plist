@@ -311,6 +311,7 @@
         <string><![CDATA[left]]></string>
         <string><![CDATA[letter-spacing]]></string>
         <string><![CDATA[line-height]]></string>
+        <string><![CDATA[list-style]]></string>
         <string><![CDATA[list-style-image]]></string>
         <string><![CDATA[list-style-position]]></string>
         <string><![CDATA[list-style-type]]></string>
@@ -319,7 +320,9 @@
         <string><![CDATA[margin-right]]></string>
         <string><![CDATA[margin-top]]></string>
         <string><![CDATA[margin]]></string>
+        <string><![CDATA[max-height]]></string>
         <string><![CDATA[max-width]]></string>
+        <string><![CDATA[min-height]]></string>
         <string><![CDATA[min-width]]></string>
         <string><![CDATA[opacity]]></string>
         <string><![CDATA[overflow]]></string>
