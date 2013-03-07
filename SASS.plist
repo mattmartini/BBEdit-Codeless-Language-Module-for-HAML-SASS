@@ -345,6 +345,7 @@
         <string><![CDATA[white-space]]></string>
         <string><![CDATA[width]]></string>
         <string><![CDATA[word-spacing]]></string>
+        <string><![CDATA[word-wrap]]></string>
         <string><![CDATA[z-index]]></string>
     </array>
     <key>Language Features</key>
