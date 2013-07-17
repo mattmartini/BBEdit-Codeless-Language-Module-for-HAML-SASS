@@ -323,6 +323,8 @@
         <string><![CDATA[min-width]]></string>
         <string><![CDATA[opacity]]></string>
         <string><![CDATA[overflow]]></string>
+        <string><![CDATA[overflow-x]]></string>
+        <string><![CDATA[overflow-y]]></string>
         <string><![CDATA[padding-bottom]]></string>
         <string><![CDATA[padding-left]]></string>
         <string><![CDATA[padding-right]]></string>
