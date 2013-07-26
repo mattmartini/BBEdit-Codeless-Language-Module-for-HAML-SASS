@@ -262,11 +262,13 @@
     <key>BBLMPredefinedNameList</key>
     <array>
         <string><![CDATA[background-attachment]]></string>
+        <string><![CDATA[background-clip]]></string>
         <string><![CDATA[background-color]]></string>
         <string><![CDATA[background-color]]></string>
         <string><![CDATA[background-image]]></string>
         <string><![CDATA[background-position]]></string>
         <string><![CDATA[background-repeat]]></string>
+	<string><![CDATA[background-size]]></string>
         <string><![CDATA[background]]></string>
         <string><![CDATA[blueprint-utility_classes]]></string>
         <string><![CDATA[border-bottom-color]]></string>
