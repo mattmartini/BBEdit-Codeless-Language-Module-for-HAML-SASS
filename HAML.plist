@@ -118,7 +118,8 @@
     <dict>
         <key>Comment Pattern</key>
         <string><![CDATA[(?x:
-            (//.*$)
+            (^\s*/.*$)  |
+            (^\s*\-\#.*$)
         )]]></string>
         
         <key>Identifier and Keyword Character Class</key>
@@ -127,8 +128,8 @@
         
         <key>String Pattern</key>
         <string><![CDATA[(?x:
-            (".+?")    |
-            ('.+?')    |
+            (".*?")    |
+            ('.*?')    |
             (\.[\w-]+) |
             (\#[\w-]+)
         )]]></string>
