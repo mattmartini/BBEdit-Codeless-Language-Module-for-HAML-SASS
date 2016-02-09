@@ -62,6 +62,7 @@
         <string><![CDATA[dl]]></string>
         <string><![CDATA[dt]]></string>
         <string><![CDATA[em]]></string>
+        <string><![CDATA[embed]]></string>
         <string><![CDATA[fieldset]]></string>
         <string><![CDATA[footer]]></string>
         <string><![CDATA[form]]></string>
@@ -102,6 +103,7 @@
         <string><![CDATA[q]]></string>
         <string><![CDATA[samp]]></string>
         <string><![CDATA[script]]></string>
+        <string><![CDATA[section]]></string>
         <string><![CDATA[select]]></string>
         <string><![CDATA[small]]></string>
         <string><![CDATA[span]]></string>
@@ -271,22 +273,26 @@
     <key>BBLMPredefinedNameList</key>
     <array>
         <string><![CDATA[background-attachment]]></string>
+        <string><![CDATA[background-clip]]></string>
         <string><![CDATA[background-color]]></string>
         <string><![CDATA[background-color]]></string>
         <string><![CDATA[background-image]]></string>
         <string><![CDATA[background-position]]></string>
         <string><![CDATA[background-repeat]]></string>
+	    <string><![CDATA[background-size]]></string>
         <string><![CDATA[background]]></string>
         <string><![CDATA[blueprint-utility_classes]]></string>
         <string><![CDATA[border-bottom-color]]></string>
         <string><![CDATA[border-bottom-style]]></string>
         <string><![CDATA[border-bottom-width]]></string>
         <string><![CDATA[border-bottom]]></string>
+        <string><![CDATA[border-collapse]]></string>
         <string><![CDATA[border-color]]></string>
         <string><![CDATA[border-left-color]]></string>
         <string><![CDATA[border-left-style]]></string>
         <string><![CDATA[border-left-width]]></string>
         <string><![CDATA[border-left]]></string>
+        <string><![CDATA[border-radius]]></string>
         <string><![CDATA[border-right-color]]></string>
         <string><![CDATA[border-right-style]]></string>
         <string><![CDATA[border-right-width]]></string>
@@ -302,6 +308,8 @@
         <string><![CDATA[clear]]></string>
         <string><![CDATA[color]]></string>
         <string><![CDATA[color]]></string>
+        <string><![CDATA[content]]></string>
+        <string><![CDATA[cursor]]></string>
         <string><![CDATA[direction]]></string>
         <string><![CDATA[display]]></string>
         <string><![CDATA[float]]></string>
@@ -332,11 +340,14 @@
         <string><![CDATA[min-width]]></string>
         <string><![CDATA[opacity]]></string>
         <string><![CDATA[overflow]]></string>
+        <string><![CDATA[overflow-x]]></string>
+        <string><![CDATA[overflow-y]]></string>
         <string><![CDATA[padding-bottom]]></string>
         <string><![CDATA[padding-left]]></string>
         <string><![CDATA[padding-right]]></string>
         <string><![CDATA[padding-top]]></string>
         <string><![CDATA[padding]]></string>
+        <string><![CDATA[pointer-events]]></string>
         <string><![CDATA[position]]></string>
         <string><![CDATA[right]]></string>
         <string><![CDATA[tag-cloud_classes]]></string>
